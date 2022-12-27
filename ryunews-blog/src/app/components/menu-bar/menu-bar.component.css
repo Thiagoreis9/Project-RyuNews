@@ -1,0 +1,15 @@
+.menuBar{
+
+
+}
+
+.menuBar ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+
+}
+
+.menuBar li{
+  margin: 0 20px 0 0;
+}

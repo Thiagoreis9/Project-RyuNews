@@ -1,0 +1,16 @@
+.menuTitle{
+  color: #fff;
+}
+
+.menuTitle h1{
+
+  font-size: 200px;
+  display: flex;
+  justify-content: center;
+  font-weight:  bolder;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.menuTitle hr{
+  margin: 10px 0px;
+}
