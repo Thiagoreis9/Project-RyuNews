@@ -1,12 +1,44 @@
 <div class="content">
-  <div class="contentCover">
-    <img src="{{ photoCover }}" alt="">
-  </div>
-  <div class="contentTitle">
+
+  <div class="contentTitleCont">
+
     <h1>{{ contentTitle }}</h1>
-    <hr>
+
+    <div class="shortInfo">
+      {{ shortInfo }}
+    </div>
+
+    <div class="linha">
+      <hr>
+    </div>
+
+    <div class="autorCont">
+      <div class="autor">
+        <img src="{{ autorPhoto }}" alt="">
+        <div class="autorName">
+          Por {{ autor }}
+        </div>
+        <div class="dataPost">
+          {{ date }}
+        </div>
+      </div>
+      <div class="contact">
+        <ul>
+          <li><a href="https://github.com/Thiagoreis9"><img src="../../../assets/whatsapp.png" alt=""></a></li>
+          <li><a href="https://www.linkedin.com/in/thiagoreis9/"><img src="../../../assets/linkedin.png" alt=""></a></li>
+          <li><a href=""><img src="../../../assets/gmail.png" alt=""></a></li>
+        </ul>
+      </div>
+    </div>
+
   </div>
-  <div class="contentDescription">
-    <p>{{ contentDescription }}</p>
-  </div>
-</div>
+    <div class="contentCover">
+    <img src="{{ photoCover }}" alt="">
+    </div>
+
+      <div class="contentDescription">
+        <p>{{ contentDescription }}</p>
+      </div>
+
+</div>>
+

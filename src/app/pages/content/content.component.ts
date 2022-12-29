@@ -15,7 +15,15 @@ export class ContentComponent implements OnInit {
 
   contentDescription:string = ''
 
+  shortInfo:string | undefined = ""
+
   private id:string | null = ''
+
+  autor:string = 'Thiago Reis'
+
+  autorPhoto:string = 'https://media.licdn.com/dms/image/C4D03AQFq3U3YnRAlCA/profile-displayphoto-shrink_800_800/0/1660572251296?e=1677715200&v=beta&t=ld4i90xZFIHs-PbLxqxoWqQ9-GXpgHGrH1UtBdLaO0o'
+
+  date = new Date().toDateString();
 
   constructor(
     private route: ActivatedRoute
@@ -35,6 +43,7 @@ export class ContentComponent implements OnInit {
     this.photoCover = result.photo
     this.contentTitle = result.title
     this.contentDescription = result.description
+    this.shortInfo = result.shortInfo
 
   }
 

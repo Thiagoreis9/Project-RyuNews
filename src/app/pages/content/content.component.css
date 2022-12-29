@@ -10,20 +10,115 @@
 
 .contentDescription p{
   color: rgb(198, 197, 197);
-  margin: 20px 0 0 0;
+  margin: 260px 0 0 0;
 
 }
 
-.contentDescription{
-  margin: 15 0 0 0;
 
-}
 
 .contentCover img{
-  border: 1px solid ;
-  border-radius: 1rem;
-  width: 500px;
-  min-width: 500px;
-  height: 300px;
-  min-height: 300px;
+  width: 720px;
+  max-height: 405px;
+  clip-path: polygon(2% 0, 0 4%, 0 15%, 2% 19%, 2% 47%, 0 51%, 0 100%, 94% 100%, 100% 85%, 100% 4%, 98% 0, 52% 0);
+
+}
+
+.contentCover{
+  background: none;
+  position: relative;
+  margin-top: -640px;
+
+}
+
+.linha hr{
+  border-color: rgba(0,212,255,1);
+  margin: 15px 0 5px 0;
+
+}
+
+
+.contentTitleCont{
+  margin: 300px 0 0 50px;
+  padding: 160px 20px 0 65px;
+  width: 900px;
+  height: 350px;
+  background: rgb(0,212,255);
+  background: linear-gradient(138deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 100%, rgba(2,0,36,1) 100%);
+
+  clip-path: polygon(0 13%, 0 96%, 2% 100%, 98% 100%, 100% 96%, 100% 90%, 98% 86%, 98% 50%, 100% 46%, 100% 4%, 98% 0, 6% 0);
+
+  position: relative;
+}
+
+.contentTitleCont h1{
+  background: none;
+  font-size: 28px;
+}
+.shortInfo{
+  padding: 5px 20px 0 0 ;
+  background: none;
+  font-size: 18px;
+}
+
+.autorCont{
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+
+.autor img{
+  width: 30px;
+  background: none;
+  border-radius: 100%;
+}
+
+.autor{
+  background: none;
+  display: flex;
+  align-items: center;
+}
+
+.autorCont img{
+  width: 30px;
+  background: none;
+  border-radius: 100%;
+}
+
+.autorName{
+  background: none;
+  margin-left: 20px;
+}
+
+.dataPost{
+  background: none;
+  margin-left: 20px;
+}
+
+.contact{
+  background:none;
+}
+
+.contact ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  list-style: none;
+  background:none;
+
+}
+
+.contact li{
+  margin: 0 20px 0 0;
+  background:none;
+}
+
+.contact a{
+  background:none;
+}
+
+.contact img{
+  border-radius: 0;
 }
