@@ -5,17 +5,22 @@
 
 }
 
+.smallCard h1{
+  font-size: 30px;
+
+
+}
+
 .smallCard-image img{
   width: 200px;
   min-width: 200px;
-  margin: 0 10px 0 0;
+  margin: 0 20px 0 0;
 
 }
 
 .smallCard-title{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
 }
 
 .smallCard-content{
@@ -27,4 +32,8 @@
 
   margin: 10px 0 0 0;
 
+}
+
+.smallCard-date{
+  color: rgb(82, 82, 82);
 }

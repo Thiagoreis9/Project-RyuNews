@@ -1,6 +1,8 @@
 .menuBar{
-
-
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .menuBar ul{
@@ -12,4 +14,25 @@
 
 .menuBar li{
   margin: 0 20px 0 0;
+}
+
+.menuBarLeft{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.user{
+  display: flex;
+  margin-right: 20px;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  font-size: 35px;
+  font-weight: bold;
+  background: rgb(0,212,255);
+  background: linear-gradient(138deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 100%, rgba(2,0,36,1) 100%);
 }

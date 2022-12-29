@@ -29,4 +29,10 @@
 .bigCard-description{
   margin-top: 10px;
 
- }
+}
+
+.bigCard-date{
+  margin: 10px 0 0 0;
+  color: rgb(82, 82, 82);
+}
+

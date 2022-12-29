@@ -4,13 +4,16 @@
 
       <div class="smallCard-image">
         <img
-          src="https://disneyplusbrasil.com.br/wp-content/uploads/2021/07/Series-Marvel-Disney-Plus-1024x576.jpg"
+          src="{{ photoCover}}"
           alt=""
         >
       </div>
 
       <div class="smallCard-title">
-        <h1>Saiu a nova versão do angular</h1>
+        <div class="smallCard-date">
+          {{ date }}
+        </div>
+        <h1>{{ cardTitle }}</h1>
       </div>
 
     </div>

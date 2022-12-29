@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu-bar.component.css']
 })
 export class MenuBarComponent implements OnInit {
+  user:string = 'T'
 
   constructor() { }
 
