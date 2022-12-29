@@ -10,6 +10,9 @@ export class SmallCardComponent implements OnInit {
   date = new Date().toDateString();
 
   @Input()
+  id:string = '0'
+
+  @Input()
   photoCover:string = ''
 
   @Input()

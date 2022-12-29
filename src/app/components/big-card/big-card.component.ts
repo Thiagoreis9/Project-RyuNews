@@ -9,11 +9,13 @@ import { Component, Input, OnInit } from '@angular/core';
 export class BigCardComponent implements OnInit {
 
   @Input()
-  photoCover:string = "";
+  photoCover:string = '';
   @Input()
-  cardTitle:string = "";
+  cardTitle:string = '';
   @Input()
-  cardDescription:string = "";
+  cardDescription:string = '';
+  @Input()
+  id:string = '0';
 
   date = new Date().toDateString();
 
