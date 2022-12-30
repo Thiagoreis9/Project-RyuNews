@@ -13,6 +13,7 @@ import { QuickCardComponent } from './components/quick-card/quick-card.component
 import { SectionCardsComponent } from './components/section-cards/section-cards.component';
 import { SectionCardsWhiteComponent } from './components/section-cards-white/section-cards-white.component';
 import { QuickCardWhiteComponent } from './components/quick-card-white/quick-card-white.component';
+import { PokeADDComponent } from './components/poke-add/poke-add.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { QuickCardWhiteComponent } from './components/quick-card-white/quick-car
     QuickCardComponent,
     SectionCardsComponent,
     SectionCardsWhiteComponent,
-    QuickCardWhiteComponent
+    QuickCardWhiteComponent,
+    PokeADDComponent
   ],
   imports: [
     BrowserModule,

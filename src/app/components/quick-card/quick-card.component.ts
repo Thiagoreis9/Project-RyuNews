@@ -13,9 +13,6 @@ export class QuickCardComponent implements OnInit {
   id:string = '0'
 
   @Input()
-  corLetra:string = 'white'
-
-  @Input()
   photoCover:string = ''
 
   @Input()

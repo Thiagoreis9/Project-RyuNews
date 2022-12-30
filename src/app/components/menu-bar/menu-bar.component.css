@@ -36,3 +36,14 @@
   background: rgb(0,212,255);
   background: linear-gradient(138deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 100%, rgba(2,0,36,1) 100%);
 }
+
+.menuBar a{
+  color: rgb(187, 187, 187);
+  font-size: 14px;
+}
+
+.menuBar a:hover{
+  color: #fff;
+  font-size: 15px;
+  transition-delay: 200ms;
+}
