@@ -1,0 +1,19 @@
+.sectionCards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sectionCardsContainer{
+  padding: 116px;
+  margin: -65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.sectionCardsContainer h1{
+  margin-bottom: 40px;
+}

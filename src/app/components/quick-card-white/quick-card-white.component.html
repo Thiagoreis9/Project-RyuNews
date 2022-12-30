@@ -1,0 +1,24 @@
+<a [routerLink]="['content', id]">
+  <div class="quickCardWhite" [ngStyle]="{'color': corLetra}">
+
+    <div class="quickCardWhite-image">
+      <img
+        src="{{ photoCover }}"
+        alt=""
+      >
+    </div>
+
+    <div class="quickCardWhite-date">
+      {{ date }}
+    </div>
+
+    <div class="quickCardWhite-title">
+      <h1>{{ cardTitle }}</h1>
+    </div>
+
+    <div class="quickCardWhite-description">
+      <p>{{ cardDescription }}</p>
+    </div>
+
+  </div>
+</a>

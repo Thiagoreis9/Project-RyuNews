@@ -9,7 +9,11 @@ import { dataFake } from '../../data/dataFake';
 })
 export class ContentComponent implements OnInit {
 
+  corFundo:string = '#fff'
+
   photoCover:string = ''
+
+  photoBg:string = '';
 
   contentTitle:string = ''
 
@@ -40,7 +44,9 @@ export class ContentComponent implements OnInit {
   setValuesToComponent(id:string | null){
     const result = dataFake.filter(article => article.id == id)[0]
 
+
     this.photoCover = result.photo
+    this.photoBg = 'url(" '+ this.photoCover + ' ")';
     this.contentTitle = result.title
     this.contentDescription = result.description
     this.shortInfo = result.shortInfo

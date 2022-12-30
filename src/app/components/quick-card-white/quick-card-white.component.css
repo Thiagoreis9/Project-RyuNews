@@ -1,0 +1,45 @@
+.quickCardWhite{
+  margin: 0px 20px;
+  width: 250px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: black;
+}
+
+.quickCardWhite-image img{
+  height: auto;
+  width: 100%;
+  min-width: 250px;
+}
+
+.quickCardWhite-title{
+  margin: 5px 0px;
+  padding-right: 20px;
+}
+
+.quickCardWhite-title h1{
+  font-size: 22px;
+  color: black;
+}
+
+.quickCardWhite-description p{
+  color: gray;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.quickCardWhite-description{
+  margin-top: 10px;
+
+}
+
+.quickCardWhite-date{
+  margin-top: 5px;
+  color: rgb(82, 82, 82);
+  font-weight: 800;
+  font-size: 12px;
+}
+

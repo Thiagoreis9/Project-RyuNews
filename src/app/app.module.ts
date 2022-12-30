@@ -9,6 +9,11 @@ import { BigCardComponent } from './components/big-card/big-card.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ContentComponent } from './pages/content/content.component';
+import { QuickCardComponent } from './components/quick-card/quick-card.component';
+import { SectionCardsComponent } from './components/section-cards/section-cards.component';
+import { SectionCardsWhiteComponent } from './components/section-cards-white/section-cards-white.component';
+import { QuickCardWhiteComponent } from './components/quick-card-white/quick-card-white.component';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +23,11 @@ import { ContentComponent } from './pages/content/content.component';
     BigCardComponent,
     SmallCardComponent,
     HomeComponent,
-    ContentComponent
+    ContentComponent,
+    QuickCardComponent,
+    SectionCardsComponent,
+    SectionCardsWhiteComponent,
+    QuickCardWhiteComponent
   ],
   imports: [
     BrowserModule,

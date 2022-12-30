@@ -1,0 +1,23 @@
+.sectionCardsWhite{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sectionCardsWhiteContainer{
+  padding: 50px;
+  margin: 50px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  color: black;
+
+
+}
+
+.sectionCardsWhiteContainer h1{
+  margin-bottom: 40px;
+  color: black;
+}
+
