@@ -1,0 +1,19 @@
+@media screen and (max-width: 1149px) {
+  .smallCard{
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 710px) {
+  .smallCard{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .smallCard-image img{
+    width: 100%;
+    min-width: 200px;
+    margin: 0;
+
+  }
+}

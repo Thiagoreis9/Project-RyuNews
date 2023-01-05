@@ -1,0 +1,6 @@
+@media screen and (max-width: 1149px) {
+  .bigCard{
+    width: 100vw;
+    padding: 20px;
+  }
+}

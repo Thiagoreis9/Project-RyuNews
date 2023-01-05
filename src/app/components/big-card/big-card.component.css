@@ -6,13 +6,11 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-
 }
 
 .bigCard-image img{
   height: auto;
   width: 100%;
-  min-width: 400px;
 
 }
 
@@ -23,12 +21,10 @@
 
 .bigCard-description p{
  color: gray;
-
 }
 
 .bigCard-description{
   margin-top: 10px;
-
 }
 
 .bigCard-date{

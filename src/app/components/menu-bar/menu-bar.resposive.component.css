@@ -1,0 +1,24 @@
+@media screen and (max-width: 612px) {
+  .options ul{
+    display: none;
+  }
+  .icons ul{
+    display: none;
+  }
+  .responsiveMenu{
+    display: flex;
+  }
+  .menuBar{
+    display: block;
+  }
+  .menuBar img{
+    width: 20px;
+  }
+  .user {
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+  }
+
+
+}

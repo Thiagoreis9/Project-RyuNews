@@ -1,8 +1,41 @@
-@media (max-width: 393px){
-
+@media screen and (max-width: 1290px) {
   .menuTitle h1{
-    font-size: 70px;
-
+    font-size: 200px;
   }
+}
 
+@media screen and (max-width: 1160px) {
+  .menuTitle h1{
+    font-size: 180px;
+  }
+}
+
+@media screen and (max-width: 932px) {
+  .menuTitle h1{
+    font-size: 120px;
+  }
+}
+
+@media screen and (max-width: 618px) {
+  .menuTitle h1{
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .menuTitle h1{
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 413px) {
+  .menuTitle h1{
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .menuTitle h1{
+    font-size: 50px;
+  }
 }

@@ -1,0 +1,55 @@
+@media screen and (max-width: 1145px) {
+  .quickCardWhite{
+    width: 550px;
+    margin: 0px;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 569px) {
+  .quickCardWhite{
+    width: 500px;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .quickCardWhite{
+    width: 450px;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 469px) {
+  .quickCardWhite{
+    width: 400px;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .quickCardWhite{
+    width: 350px;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 369px) {
+  .quickCardWhite{
+    width: 300px;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .quickCardWhite{
+    width: 250px;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 269px) {
+  .quickCardWhite{
+    width: 200px;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 220px) {
+  .quickCardWhite{
+    width: 150px;
+    margin: 0px;
+  }
+}

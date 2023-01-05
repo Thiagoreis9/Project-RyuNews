@@ -1,0 +1,55 @@
+@media screen and (max-width: 1145px) {
+  .quickCard{
+    width: 550px;
+    margin: 0px;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 569px) {
+  .quickCard{
+    width: 500px;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .quickCard{
+    width: 450px;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 469px) {
+  .quickCard{
+    width: 400px;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .quickCard{
+    width: 350px;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 369px) {
+  .quickCard{
+    width: 300px;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .quickCard{
+    width: 250px;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 269px) {
+  .quickCard{
+    width: 200px;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 220px) {
+  .quickCard{
+    width: 150px;
+    margin: 0px;
+  }
+}

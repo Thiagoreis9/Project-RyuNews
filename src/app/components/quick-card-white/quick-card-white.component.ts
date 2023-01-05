@@ -3,7 +3,7 @@ import { Component, OnInit, Input } from '@angular/core';
 @Component({
   selector: 'app-quick-card-white',
   templateUrl: './quick-card-white.component.html',
-  styleUrls: ['./quick-card-white.component.css']
+  styleUrls: ['./quick-card-white.component.css', './quick-card-white.responsive.css']
 })
 export class QuickCardWhiteComponent implements OnInit {
 

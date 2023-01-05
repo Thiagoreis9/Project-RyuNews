@@ -1,0 +1,92 @@
+
+@media screen and (max-width: 1800px) {
+  .pokeADD{
+    background: none;
+    background-color: rgb(255, 211, 53);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .pokeTitle h1{
+    font-size: 84px;
+    color: black;
+  }
+  .pokeDescription{
+    margin-top: 60px;
+    font-size: 42px;
+    color: black;
+  }
+}
+
+@media screen and (max-width: 979px) {
+
+  .pokeTitle h1{
+    font-size: 54px;
+    padding: 20px;
+  }
+  .pokeDescription{
+    font-size: 28px;
+    padding: 20px;
+
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+  .pokeTitle h1{
+    font-size: 34px;
+    padding: 20px;
+  }
+  .pokeDescription{
+    font-size: 18px;
+    padding: 20px;
+
+  }
+}
+
+@media screen and (max-width: 434px) {
+
+  .pokeButton button{
+    width: 250px;
+    height: 40px;
+    font-size: 16px;
+    padding: 0;
+  }
+  .pokeTitle h1{
+    font-size: 44px;
+    padding: 20px;
+  }
+  .pokeDescription{
+    font-size: 18px;
+    padding: 20px;
+
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .pokeTitle h1{
+    font-size: 34px;
+    padding: 20px;
+  }
+  .pokeDescription{
+    font-size: 12px;
+    padding: 20px;
+
+  }
+}
+
+@media screen and (max-width: 389px) {
+
+  .pokeTitle h1{
+    font-size: 30px;
+    padding: 20px;
+  }
+  .pokeDescription{
+    font-size: 8px;
+    padding: 20px;
+
+  }
+}

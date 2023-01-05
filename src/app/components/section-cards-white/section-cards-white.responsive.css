@@ -1,0 +1,8 @@
+@media screen and (max-width: 1145px) {
+  .sectionCardsWhite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
