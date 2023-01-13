@@ -7,3 +7,9 @@ In this project challenge of the Cloud Fullstack Bootcamp - Warburg Pincus taugh
 The project is online at the following link:
 
 https://project-ryunews.netlify.app
+
+> Project Screen's
+
+![screencapture-project-ryunews-netlify-app-2023-01-13-15_10_39](https://user-images.githubusercontent.com/61464525/212390642-7b5fc8ba-0b41-422d-859a-6cf554602801.png)
+![screencapture-project-ryunews-netlify-app-content-10-2023-01-13-15_14_27](https://user-images.githubusercontent.com/61464525/212391016-c5a9ab76-12dd-4956-82f8-94c9c7654f4f.png)
+![screencapture-project-ryunews-netlify-app-content-7-content-11-2023-01-13-15_14_07](https://user-images.githubusercontent.com/61464525/212391022-96d8e14f-6e5a-42f2-a09a-a43df2faf068.png)
